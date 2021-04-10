@@ -1,0 +1,88 @@
+img {
+  width : 100%;
+  height : 100%;
+}
+
+.font-div {
+  width: 25%;
+}
+
+.padding-x-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.padding-top-0 {
+  padding-top: 0 !important;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0 !important;
+}
+
+
+.headerImage {
+  background-image: url('../img/Laptop-Wallpaper.png');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+footer {
+  height : 400px;
+  background-image: url('../img/Me1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 3px solid #007bff;
+}
+
+.maindiv {
+  opacity: 0.8;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.textholder {
+  height: 100% !important;
+  position: relative;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.imagetext {
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 3%;
+}
+
+.facebook, .linkedin {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.facebook {
+  left: 30%;
+}
+
+.linkedin {
+  left: 50%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.downloadbtn {
+  border-radius: 0px !important;
+  margin-top: -2px;
+}
+
