@@ -98,7 +98,9 @@ div#carouselExampleIndicators img {
   font-weight: bold !important;
 }
 
-
+.carousel-caption {
+  backdrop-filter: brightness(0.5);
+}
 
 @media only screen and (max-width: 1000px) {
   .facebook {
