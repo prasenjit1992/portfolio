@@ -90,7 +90,7 @@ footer {
 }
 
 
-div#carouselExampleIndicators img.d-block.w-100 {
+div#carouselExampleIndicators img {
   max-height: 480px;
 }
 
