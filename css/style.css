@@ -20,15 +20,18 @@ img {
   padding-bottom: 0 !important;
 }
 
+.carousel-indicators {
+  bottom: -10px !important;
+}
 
-.headerImage {
+/* .headerImage {
   background-image: url('../img/Laptop-Wallpaper.png');
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+} */
 
 footer {
   height : 400px;
@@ -65,11 +68,11 @@ footer {
 }
 
 .facebook {
-  left: 30%;
+  left: 45%;
 }
 
 .linkedin {
-  left: 50%;
+  left: 51%;
 }
 
 .card {
@@ -86,3 +89,54 @@ footer {
   margin-top: -2px;
 }
 
+
+div#carouselExampleIndicators img.d-block.w-100 {
+  max-height: 450px;
+}
+
+.carousel-caption h3, .carousel-caption h4 {
+  font-weight: bold !important;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .facebook {
+    left: 42%;
+  }
+  
+  .linkedin {
+    left: 52%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .facebook {
+    left: 41%;
+  }
+  
+  .linkedin {
+    left: 53%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .facebook {
+    left: 38%;
+  }
+  
+  .linkedin {
+    left: 54%;
+  }
+}
+
+
+@media only screen and (max-width: 360px) {
+  .facebook {
+    left: 34%;
+  }
+  
+  .linkedin {
+    left: 54%;
+  }
+}
