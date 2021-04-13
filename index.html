@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
 </head>
 <body>
@@ -41,83 +42,6 @@
         </div> 
     </div>
   </div>
-
-
-
-
-  <!-- <div class="headerImage">
-    <div class="container col-lg-12 col-md-12 textholder">
-      <div class="imagetext text-primary">
-        <h4>Prasenjit Dasgupta</h4>
-        <h5>UX Designer</h5>
-        <br>
-
-
-        <a href="https://www.facebook.com/prasenjitdasgupta1991" class="facebook"><img src="img\facebook.png"></a> &nbsp;&nbsp;
-        <a href="https://www.facebook.com/prasenjitdasgupta1991" class="linkedin"><img src="img\linkedin.png"></a>
-      </div>
-    </div>
-  </div> -->
-
-
-
-
-
-
-
-  <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
-   
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-  
-    
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="img\Laptop-Wallpaper.png" alt="">
-        <div class="carousel-caption">
-          <h4>Prasenjit Dasgupta</h4>
-          <h6>UX Designer</h6>
-          <a href="https://www.facebook.com/prasenjitdasgupta1991" class="facebook"><img src="img\facebook.png"></a> &nbsp;&nbsp;
-          <a href="https://www.facebook.com/prasenjitdasgupta1991" class="linkedin"><img src="img\linkedin.png"></a>
-        </div>
-      </div>
-  
-      <div class="item">
-        <img src="img\Laptop-Wallpaper.png" alt="">
-        <div class="carousel-caption">
-          <h4>Key Skils</h4>
-          <h6>Adobe XD, Figma.</h6>
-          <a href="https://www.facebook.com/prasenjitdasgupta1991" class="facebook"><img src="img\facebook.png"></a> &nbsp;&nbsp;
-          <a href="https://www.facebook.com/prasenjitdasgupta1991" class="linkedin"><img src="img\linkedin.png"></a>
-        </div>
-      </div>
-  
-      <div class="item">
-        <img src="img\Laptop-Wallpaper.png" alt="">
-        <div class="carousel-caption">
-          <h4>Experience in UX Design-</h4>
-          <h6>4.3 Years.</h6>
-          <a href="https://www.facebook.com/prasenjitdasgupta1991" class="facebook"><img src="img\facebook.png"></a> &nbsp;&nbsp;
-          <a href="https://www.facebook.com/prasenjitdasgupta1991" class="linkedin"><img src="img\linkedin.png"></a>
-        </div>
-      </div>
-    </div>
-  
-    
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div> -->
-
-
 
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -248,7 +172,7 @@
                 </div>
                   
                 <div class="row col-lg-12 p-4">
-                  <div class="col-sm-6 p-2">
+                  <div class="col-sm-12 p-2">
                     <div class="card">
                       <div class="card-body">
                         <h5 class="card-title">Tools-</h5>
@@ -262,6 +186,8 @@
                             <span style="display:block;">CSS Flexbox.</span>
                             <span style="display:block;">Media Queries.</span>
                         </p>
+                        <div id="chartContainer" style="height: 300px; width: 100%;">
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -650,6 +576,45 @@
 
 </div>
 </div>
+
+
+<script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+      title:{
+        text: "Primary Tools & Frameworks Used"    
+      },
+      axisY: {
+        title: "Proficiency"
+      },
+      legend: {
+        verticalAlign: "bottom",
+        horizontalAlign: "center"
+      },
+      data: [
+
+      {        
+        color: "#B0D0B0",
+        type: "column",  
+        showInLegend: true, 
+        legendMarkerType: "none",
+        legendText: "Tools & Frameworks",
+        dataPoints: [      
+        { x: 1, y: 8, label: "Adobe XD"},
+        { x: 2, y: 6,  label: "Adobe Photoshop" },
+        { x: 3, y: 7,  label: "Figma"},
+        { x: 4, y: 7,  label: "Bootstrap"},
+        { x: 5, y: 8,  label: "Html"},
+        { x: 6, y: 8, label: "CSS"},
+        ]
+      }
+      ]
+    });
+
+    chart.render();
+  }
+  </script>
 
 </body>
 </html>
