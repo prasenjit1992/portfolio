@@ -117,8 +117,9 @@ div#carouselExampleIndicators img {
   position:absolute;
 }
 
-.a.canvasjs-chart-credit {
+.canvasjs-chart-credit {
   display: none;
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 1000px) {
