@@ -117,21 +117,8 @@ div#carouselExampleIndicators img {
   position:absolute;
 }
 
-
-.chart-responsive {
-  overflow:hidden;
-  position:relative;
-  height:0;
-}
-
-.chart-responsive div {
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-  min-height: 300px;
-  min-width: 300px;
+.a.canvasjs-chart-credit {
+  display: none;
 }
 
 @media only screen and (max-width: 1000px) {
