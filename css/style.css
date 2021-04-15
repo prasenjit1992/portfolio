@@ -122,6 +122,15 @@ div#carouselExampleIndicators img {
   visibility: hidden;
 }
 
+.card-body {
+  background-color: #343a401c;
+}
+
+.text-purple {
+  color: #800080;
+}
+
+
 @media only screen and (max-width: 1000px) {
   .facebook {
     left: 42%;
