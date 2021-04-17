@@ -202,7 +202,13 @@ a:hover {
   cursor: pointer;
 }
 
-
+.tools-img {
+  width: 80px;
+  height: 80px;
+  display: inline;
+  float: left;
+  margin-top: 20px;
+}
 
 @media only screen and (max-width: 1000px) {
   .facebook {
