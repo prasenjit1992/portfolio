@@ -95,7 +95,7 @@ footer {
 
 
 div#carouselExampleIndicators img {
-  max-height: 450px;
+  max-height: 420px;
 }
 
 .carousel-caption h3, .carousel-caption h4 {
@@ -131,8 +131,17 @@ div#carouselExampleIndicators img {
 }
 
 .text-purple {
-  color: #800080;
+  color: #af00af !important;
 }
+
+.bg-purple {
+  background-color: #af00af !important;
+}
+
+.border-purple {
+  border-color: #af00af !important;
+}
+
 
 .card-img {
   border: 1px solid rgb(0, 105, 26);
@@ -144,14 +153,47 @@ div#carouselExampleIndicators img {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.main-menu {
-  opacity: 0.8;
+.main-menu, .section-header {
+  opacity: 0.9;
 }
 
 .card-image-info {
   border-color: #0093ab !important; 
   background-color: #0093ab !important;
 }
+
+.menuitem {
+  background-color: white !important;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border: 0.5px inset #343a401c !important;
+}
+
+.menu1:hover {
+    color: white !important;
+    background-color: #007bff !important;
+    cursor: pointer;
+}
+
+.menu2:hover {
+  color: white !important;
+  background-color: #28a745 !important;
+  cursor: pointer;
+}
+
+.menu3:hover {
+  color: white !important;
+  background-color: #0093ab !important;
+  cursor: pointer;
+}
+
+.menu4:hover {
+  color: white !important;
+  background-color: #af00af !important;
+  cursor: pointer;
+}
+
+
 
 @media only screen and (max-width: 1000px) {
   .facebook {
