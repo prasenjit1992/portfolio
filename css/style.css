@@ -75,6 +75,29 @@ footer {
   background-repeat: no-repeat;
 }
 
+.Section6 {
+  background-image: url('../img/abstract6.jpg');
+}
+
+.Section7 {
+  background-image: url('../img/abstract7.jpg');
+}
+
+.Section8 {
+  background-image: url('../img/abstract8.jpg');
+}
+
+.Section9 {
+  background-image: url('../img/abstract9.jpg');
+}
+
+.Section10 {
+  background-image: url('../img/abstract10.jpg');
+}
+
+.Section11 {
+  background-image: url('../img/abstract11.jpg');
+}
 
 .maindiv {
   opacity: 0.9;
@@ -116,8 +139,8 @@ footer {
 }
 
 .card-text {
-  padding: 10px !important;
-  font-size: 0.9rem;
+  padding: 5px !important;
+  font-size: 1rem;
   line-height: 1.5rem;
 }
 
