@@ -255,6 +255,18 @@ a:hover {
 
 }
 
+
+@media only screen and (max-width: 772px) {
+  .Tools-images {
+    display: none;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
+  }
+
+}
+
 @media only screen and (max-width: 600px) {
   .facebook {
     left: 41%;
