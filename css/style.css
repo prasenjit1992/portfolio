@@ -39,9 +39,42 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  border: 3px solid #007bff;
   opacity: 0.8;
 }
+
+
+.Section {
+  height : 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 1.0;
+}
+
+.Section1 {
+  background-image: url('../img/abstract1.jpg');
+}
+
+.Section2 {
+  background-image: url('../img/abstract2.jpg');
+}
+
+.Section3 {
+  background-image: url('../img/abstract3.jpg');
+}
+
+.Section4 {
+  background-image: url('../img/abstract4.jpg');
+}
+
+.Section5 {
+  background-image: url('../img/abstract5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .maindiv {
   opacity: 0.9;
@@ -75,22 +108,26 @@ footer {
   left: 51%;
 }
 
-.card, .card-text {
+.card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  background-color: #0000007d !important;
+  Color: #fff;
 }
 
 .card-text {
-  padding: 10px !important ;
-  background-color: rgba(255, 255, 255, 0.411);
+  padding: 10px !important;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.card-text {
-  font-size: 0.85rem;
+
+.card {
+  margin: auto;
 }
 
 .downloadbtn {
@@ -129,10 +166,6 @@ div#carouselExampleIndicators img {
 .canvasjs-chart-credit {
   display: none;
   visibility: hidden;
-}
-
-.card-body {
-  background-color: #343a401c;
 }
 
 .text-purple {
@@ -203,8 +236,8 @@ a:hover {
 }
 
 .tools-img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   display: inline;
   float: left;
   margin-top: 20px;
@@ -230,6 +263,12 @@ a:hover {
   .linkedin {
     left: 53%;
   }
+
+  .tools-img {
+    width: 40px;
+    height: 40px;
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -240,6 +279,12 @@ a:hover {
   .linkedin {
     left: 54%;
   }
+
+  .tools-img {
+    width: 30px;
+    height: 30px;
+  }
+
 }
 
 
