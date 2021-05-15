@@ -309,8 +309,8 @@ a:hover {
     display: none;
   }
 
-  .card h2 {
-    font-size: 1.2rem !important;
+  .card h3 {
+    font-size: 1.1rem !important;
   }
 
 }
