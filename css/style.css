@@ -144,8 +144,9 @@ footer {
 }
 
 .card {
-  background-color: #000000c7 !important;
+  background-color: #00021bad !important;
   Color: #fff;
+  margin: auto;
 }
 
 .card-text {
@@ -164,10 +165,6 @@ footer {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-
-.card {
-  margin: auto;
-}
 
 .downloadbtn {
   border-radius: 0px !important;
