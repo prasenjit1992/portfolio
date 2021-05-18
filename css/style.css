@@ -173,7 +173,7 @@ footer {
 
 
 div#carouselExampleIndicators img {
-  max-height: 480px;
+  max-height: 400px;
 }
 
 .carousel-caption h3, .carousel-caption h4 {
@@ -238,6 +238,10 @@ div#carouselExampleIndicators img {
 
 .main-menu, .section-header {
   opacity: 0.8;
+}
+
+.main-menu {
+  margin-top: 5px;
 }
 
 .card-image-info {
