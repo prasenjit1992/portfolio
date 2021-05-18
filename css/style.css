@@ -33,7 +33,7 @@ img {
 }
 
 footer {
-  height : 380px;
+  height : 400px;
   background-image: url('../img/Me1.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ footer {
 
 
 .Section {
-  height : 380px;
+  height : 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,7 +173,7 @@ footer {
 
 
 div#carouselExampleIndicators img {
-  max-height: 380px;
+  max-height: 400px;
 }
 
 .carousel-caption h3, .carousel-caption h4 {
@@ -237,7 +237,7 @@ div#carouselExampleIndicators img {
 }
 
 .main-menu, .section-header {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .main-menu {
