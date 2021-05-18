@@ -33,7 +33,7 @@ img {
 }
 
 footer {
-  height : 400px;
+  height : 380px;
   background-image: url('../img/Me1.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ footer {
 
 
 .Section {
-  height : 400px;
+  height : 380px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,7 +173,7 @@ footer {
 
 
 div#carouselExampleIndicators img {
-  max-height: 400px;
+  max-height: 380px;
 }
 
 .carousel-caption h3, .carousel-caption h4 {
