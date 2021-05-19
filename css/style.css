@@ -144,7 +144,7 @@ footer {
 }
 
 .card {
-  background-color: #00021bad !important;
+  background-color: #010213bb !important;
   Color: #fff;
   margin: auto;
 }
@@ -173,7 +173,7 @@ footer {
 
 
 div#carouselExampleIndicators img {
-  max-height: 400px;
+  max-height: 420px;
 }
 
 .carousel-caption h3, .carousel-caption h4 {
