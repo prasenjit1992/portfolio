@@ -33,7 +33,7 @@ img {
 }
 
 footer {
-  height : 400px;
+  height : 420px;
   background-image: url('../img/Me1.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ footer {
 
 
 .Section {
-  height : 450px;
+  height : 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,7 +57,7 @@ footer {
 }
 
 .Section2 {
-  background-image: url('../img/abstract2.jpg');
+  background-image: url('../img/abstract2.png');
 }
 
 .Section3 {
@@ -181,7 +181,7 @@ div#carouselExampleIndicators img {
 }
 
 .carousel-caption {
-  background-color: #00021bad;
+  background-color: #010213bb;
 } 
 
 .map-responsive {
