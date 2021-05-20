@@ -50,6 +50,8 @@ footer {
   background-size: cover;
   position: relative;
   opacity: 1;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .Section1 {
