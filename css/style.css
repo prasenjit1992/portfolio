@@ -44,14 +44,14 @@ footer {
 
 
 .Section {
-  height : 500px;
+  height : 480px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   opacity: 1;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .Section1 {
