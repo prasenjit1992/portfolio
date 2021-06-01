@@ -190,7 +190,7 @@ footer {
 
 
 div#carouselExampleIndicators img {
-  max-height: 480px;
+  max-height: 520px;
 }
 
 .carousel-caption h3, .carousel-caption h4 {
@@ -228,6 +228,7 @@ div#carouselExampleIndicators img {
 .bg-purple {
   background-color: #af00af !important;
 }
+
 
 .border-purple {
   border-color: #af00af !important;
@@ -334,6 +335,21 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+#education {
+  padding-bottom: 80px;
+}
+
+#user {
+  padding-bottom: 80px;
+}
+
+
+#experience {
+  padding-bottom: 80px;
+}
+
 
 @media only screen and (max-width: 1000px) {
   .facebook {
