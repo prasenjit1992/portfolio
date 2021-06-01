@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="img\workimage3.jpg" alt="Third slide">
+        <img class="d-block w-100" src="img\workimage3.png" alt="Third slide">
         <div class="carousel-caption" style="color: #ffffff !important;">
           <h4>UX Experience-</h4>
           <h6>Relevant Exp: 4.3 Years.</h6>
@@ -98,16 +98,16 @@
     <div class="col-lg-12 col-md-12">
         <div class="d-flex flex-column">
             <div class="d-flex flex-row text-center text-white">
-                <div class="p-2 text-primary font-div menuitem menu1" data-target="#user">
+                <div class="p-2 text-primary font-div menuitem menu1" data-toggle="collapse" data-target="#user">
                         <i class="fa fa-user fa-2x d-block"></i>Profile  
                 </div>     
-                <div class="p-2 text-success font-div menuitem menu2" data-target="#education">
+                <div class="p-2 text-success font-div menuitem menu2" data-toggle="collapse" data-target="#education">
                     <i class="fa fa-graduation-cap fa-2x d-block"></i>Academics
                 </div>
-                <div class="p-2 text-info font-div menuitem menu3" data-target="#experience">
+                <div class="p-2 text-info font-div menuitem menu3" data-toggle="collapse" data-target="#experience">
                     <i class="fa fa-folder fa-2x d-block"></i>Experience  
                 </div>
-                <div class="p-2 text-purple font-div menuitem menu4" data-target="#contact">
+                <div class="p-2 text-purple font-div menuitem menu4" data-toggle="collapse" data-target="#contact">
                     <i class="fa fa-envelope fa-2x d-block"></i>Contact
                 </div>
             </div>
@@ -119,16 +119,16 @@
 
 
 
-<!-- Main Body Section starts -->
+<!-- Main accordion Body Section starts -->
  
-  <div class="row">
+  <div class="row" id="accordion">
     <div class="container-fluid">
 
 
 
 
-      <!-- 1st Profile Section starts -->
-      <div class="col-sm-12 border-primary padding-x-0 myborder show" id="user">
+      <!-- 1st Profile accordion Section starts -->
+      <div class="col-sm-12 border-primary padding-x-0 collapse myborder show" data-parent="#accordion" id="user">
                 <div class="p-3 text-white bg-primary section-header">
                     <h5>Profile Info-</h5>
                 </div>
@@ -274,78 +274,79 @@
                 
     </div>        
 
-    <!-- 1st Profile Section ends --> 
+    <!-- 1st Profile accordion Section ends --> 
 
 
 
 
 
 
-             <div class="col-lg-12 border-success padding-x-0 myborder" id="education">
+             <div class="col-sm-12 border-success padding-x-0 collapse myborder" data-parent="#accordion" id="education">
                 <div class="p-3 text-white bg-success section-header">
                     <h5>Academic Qualifications-</h5>
                 </div>
 
-                <div class="p-4 text-success">
+                <div class="p-3 text-success">
                     <h5>Academic Details-</h5>
                 </div>
 
 
-                <div class="flex-container" style="display: flex; flex-direction: row; margin-bottom: 20px;">
 
-                  <div class="col-lg-4" style="text-align: center;">
-                      <div class="card custom-card">
-                        <img src="img/abstract6.jpg" alt="school image" style="width:100%">
-                        <div class="card-body">
-                          <h5 class="card-title text-success p-2">Secondary</h5>
-                          <p class="card-text">
-                                <span style="display:block;">Degree : Secondary (10th).</span>
-                                <span style="display:block;">Discipline : General.</span>
-                                <span style="display:block;">Board : C.B.S.E.</span>
-                                <span style="display:block;">Institution : Indira Gandhi Memorial High.</span>
-                                <span style="display:block;">Year of Passing : 2007.</span>
-                                <span style="display:block;">Percentage : 86.00%.</span>
-                          </p>
-                        </div>
+                <div class="col-lg-12 p-4 Section Section6" style="margin-top: 5px !important; margin-bottom: 5px !important;">
+                  <div class="col-md-6 col-sm-12 p-2 pull-left">
+                    <div class="card">
+                      <div class="card-body">
+                        <h3 class="card-title text-success p-2">Secondary-</h3>
+                        <p class="card-text">
+                              <span style="display:block;">Degree : Secondary (10th).</span>
+                              <span style="display:block;">Discipline : General.</span>
+                              <span style="display:block;">Board/University : C.B.S.E.</span>
+                              <span style="display:block;">Institution : Indira Gandhi Memorial High School.</span>
+                              <span style="display:block;">Year of Passing : 2007.</span>
+                              <span style="display:block;">Percentage : 86.00%.</span>
+                        </p>
+                      </div>
                     </div>
                   </div>
-
-                  <div class="col-lg-4" style="text-align: center;">
-                      <div class="card custom-card">
-                        <img src="img/abstract7.jpg" alt="school image" style="width:100%">
-                        <div class="card-body">
-                          <h5 class="card-title text-success p-2">Higher Secondary</h5>
-                          <p class="card-text">
-                                <span style="display:block;">Degree : Higher Secondary (12th).</span>
-                                <span style="display:block;">Discipline : Science.</span>
-                                <span style="display:block;">Board : C.B.S.E.</span>
-                                <span style="display:block;">Institution : Sudhir Memorial Institute.</span>
-                                <span style="display:block;">Year of Passing : 2009.</span>
-                                <span style="display:block;">Percentage : 64.20%.</span>
-                          </p>
-                        </div>
-                      </div>
-                  </div>
+                </div>
 
 
-                   <div class="col-lg-4" style="text-align: center;">             
-                      <div class="card custom-card">
-                        <img src="img/abstract8.jpg" alt="school image" style="width:100%">
-                        <div class="card-body">
-                          <h5 class="card-title text-success p-2">B.Tech.</h5>
-                          <p class="card-text">
-                              <span style="display:block;">Degree : B.TECH.</span>
-                              <span style="display:block;">Discipline : EEE.</span>
-                              <span style="display:block;">University : W.B.U.T.</span>
-                              <span style="display:block;">Institution : Camellia Institute of Tech.</span>
+                <div class="col-lg-12 p-4 Section Section7" style="margin-top: 5px !important; margin-bottom: 5px !important;">
+                  <div class="col-md-6 col-sm-12 p-2 pull-right" style="text-align: right;">
+                    <div class="card">
+                      <div class="card-body">
+                        <h3 class="card-title text-success p-2">Higher Secondary-</h3>
+                        <p class="card-text">
+                              <span style="display:block;">Degree : Higher Secondary (12th).</span>
+                              <span style="display:block;">Discipline : Science.</span>
+                              <span style="display:block;">Board/University : C.B.S.E.</span>
+                              <span style="display:block;">Institution : Sudhir Memorial Institute.</span>
                               <span style="display:block;">Year of Passing : 2009.</span>
-                              <span style="display:block;">C.G.P.A. : 8.02</span>
-                          </p>
-                        </div>
+                              <span style="display:block;">Percentage : 64.20%.</span>
+                        </p>
                       </div>
                     </div>
+                  </div>
+                </div>
 
-                </div>  
+
+                <div class="col-lg-12 p-4 Section Section8" style="margin-top: 5px !important; margin-bottom: 5px !important;">             
+                  <div class="col-md-6 col-sm-12 p-2 pull-left">
+                    <div class="card">
+                      <div class="card-body">
+                        <h3 class="card-title text-success p-2">B.Tech.-</h3>
+                        <p class="card-text">
+                            <span style="display:block;">Degree : B.TECH (Graduation).</span>
+                            <span style="display:block;">Discipline : EEE (ELECTRICAL & ELECTRONICS).</span>
+                            <span style="display:block;">Board/University : W.B.U.T.</span>
+                            <span style="display:block;">Institution : Camellia Institute of Technology.</span>
+                            <span style="display:block;">Year of Passing : 2009.</span>
+                            <span style="display:block;">C.G.P.A. : 8.02</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
 
 
@@ -354,9 +355,10 @@
                   <h5>External Trainings-</h5>
                 </div>
 
-                
-                <div class="col-lg-6" style="margin-top: 5px !important; margin-bottom: 5px !important; padding-left: 0px !important; padding-right: 3px !important;">
-                  <div class="col-md-12 p-2 Section10">
+
+                <div class="col-lg-6 Section9" style="margin-top: 5px !important; margin-bottom: 5px !important;">
+
+                  <div class="col-sm-12 p-2">
                     <div class="card">
                       <div class="card-body">
                         <h3 class="card-title text-success">External Trainings-</h3>
@@ -369,18 +371,15 @@
                       </div>
                     </div>
                   </div>
+                  
                 </div>
-
-
-
-                
 
 
                 <div class="p-3 text-success">
                   <h5>External Certifications-</h5>
                 </div>
 
-                <div class="row margin-x-0" style="margin-bottom: 40px">
+                <div class="row margin-x-0">
 
                   <div class="col-lg-6 pull-left" style="margin-top: 5px !important; margin-bottom: 5px !important; padding-left: 0px !important; padding-right: 3px !important;">
                     <div class="col-md-12 p-2 Section10">
@@ -418,7 +417,7 @@
 
 
 
-            <div class="col-sm-12 border-info padding-x-0 myborder" id="experience">
+            <div class="col-sm-12 border-info padding-x-0 collapse myborder" data-parent="#accordion" id="experience">
                 <div class="p-3 text-white bg-info section-header">
                     <h5>Work Experience-</h5>
                 </div>
@@ -544,10 +543,9 @@
                       </div>
                     </div>
                 </div>
-              </div>
             </div>
 
-            <div class="col-sm-12 border-purple padding-x-0 myborder" id="contact">
+            <div class="col-sm-12 border-purple padding-x-0 collapse myborder" data-parent="#accordion" id="contact">
                 <div class="p-3 text-white bg-purple section-header">
                     <h5>Connect Me !!</h5>
                 </div>
@@ -558,10 +556,10 @@
 
 
                 <div class="col-lg-12 p-4 Section Section13" style="margin-top: 5px !important; margin-bottom: 5px !important;">
-                    <div class="col-md-6 p-2 contact_div">
+                    <div class="col-md-6 p-2">
                       <div class="card">
                         <div class="card-body">
-                          <h3 class="card-title">Contact -</h3>
+                          <h3 class="card-title text-purple">Contact -</h3>
                           <p class="card-text">
                             <span style="display:block;">Mobile - 8017830431</span>
                             <span style="display:block;">Email - prasenjitdasgupta1991@gmail.com</span>
@@ -592,7 +590,8 @@
 
             </div>
 
-  <!-- Main Body Section ends -->
+  </div>
+  <!-- Main accordion Body Section ends -->
 
 
 
