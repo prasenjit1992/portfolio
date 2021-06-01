@@ -190,7 +190,7 @@ footer {
 
 
 div#carouselExampleIndicators img {
-  max-height: 440px;
+  max-height: 480px;
 }
 
 .carousel-caption h3, .carousel-caption h4 {
@@ -198,7 +198,7 @@ div#carouselExampleIndicators img {
 }
 
 .carousel-caption {
-  background-color: #010213bb;
+  background-color: #050319c7;
 } 
 
 .map-responsive {
