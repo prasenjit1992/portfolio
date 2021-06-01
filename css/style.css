@@ -146,18 +146,24 @@ footer {
   margin-left: 3%;
 }
 
+.carousel-inner {
+  position: relative;
+}
+
 .facebook, .linkedin {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
 }
 
 .facebook {
-  left: 45%;
+  top: 5%;
+  right: 5%;
 }
 
 .linkedin {
-  left: 51%;
+  top: 5%;
+  right: 12%;
 }
 
 .card {
@@ -349,6 +355,9 @@ a:hover {
 #experience {
   padding-bottom: 80px;
 }
+
+
+
 
 
 @media only screen and (max-width: 1000px) {
