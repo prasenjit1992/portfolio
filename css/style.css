@@ -34,7 +34,11 @@ img {
 }
 
 .carousel-indicators {
-  bottom: -10px !important;
+  bottom: 10px !important;
+}
+
+.carousel-caption {
+  bottom: 50px !important;
 }
 
 footer {
@@ -44,7 +48,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 
@@ -129,8 +133,9 @@ footer {
 
 
 .maindiv {
-  opacity: 0.8;
+  opacity: 1;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  position: relative;
 }
 
 .textholder {
@@ -152,8 +157,8 @@ footer {
 
 .facebook, .linkedin {
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .facebook {
@@ -163,7 +168,7 @@ footer {
 
 .linkedin {
   top: 5%;
-  right: 12%;
+  right: 10%;
 }
 
 .card {
@@ -194,6 +199,16 @@ footer {
   margin-top: -2px;
 }
 
+body {
+  position: relative;
+}
+
+.floating_Top {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+
 
 div#carouselExampleIndicators img {
   max-height: 520px;
@@ -204,7 +219,7 @@ div#carouselExampleIndicators img {
 }
 
 .carousel-caption {
-  background-color: #050319c7;
+  background-color: #0503199e;
 } 
 
 .map-responsive {
@@ -260,11 +275,11 @@ div#carouselExampleIndicators img {
 }
 
 .main-menu, .section-header {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .main-menu {
-  margin-top: -5px;
+  margin-top: -15px;
   z-index: 2;
 }
 
@@ -387,6 +402,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+
+  .facebook, .linkedin {
+    width: 25px;
+    height: 25px;
+  }
+
+
   .facebook {
     left: 41%;
   }
@@ -405,20 +427,41 @@ a:hover {
     font-size: 0.8rem;
   }
 
+  h4 {
+    font-size: 1.2rem !important;
+  }
+
+  h5 {
+    font-size: 1.1rem !important;
+  }
+
+  h6 {
+    font-size: 1rem !important;
+  }
+
+  .Proficiency-graph {
+    display: none;
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
   .facebook {
-    left: 37%;
+    left: 40%;
   }
   
   .linkedin {
-    left: 54%;
+    left: 50%;
   }
 
   .tools-img {
     width: 30px;
     height: 30px;
+  }
+
+  .facebook, .linkedin {
+    width: 20px;
+    height: 20px;
   }
 
 
@@ -427,10 +470,10 @@ a:hover {
 
 @media only screen and (max-width: 360px) {
   .facebook {
-    left: 33%;
+    left: 35%;
   }
   
   .linkedin {
-    left: 53%;
+    left: 50%;
   }
 }
