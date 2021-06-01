@@ -343,12 +343,17 @@ a:hover {
   .linkedin {
     left: 52%;
   }
+  
+  .flex-container {
+    flex-direction: column !important;
+  }
 
 
 }
 
 
-@media only screen and (max-width: 772px) {
+@media only screen and (max-width: 800px) {
+
   .Tools-images {
     display: none;
   }
@@ -374,7 +379,6 @@ a:hover {
     padding: 5px !important;
     font-size: 0.8rem;
   }
-  
 
 }
 
