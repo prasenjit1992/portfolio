@@ -268,33 +268,53 @@ div#carouselExampleIndicators img {
 
 .menuitem {
   background-color: white !important;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%) !important;
+  transition: 0.3s !important;
   border: 0.5px inset #343a401c !important;
+}
+
+.menu1{
+  color: #007bff;
+}
+
+.menu2{
+  color: #28a745;
+}
+
+.menu3{
+  color: #0093ab;
+}
+
+.menu4{
+  color: #af00af;
 }
 
 .menu1:hover {
     color: white !important;
     background-color: #007bff !important;
-    cursor: pointer;
+    cursor: pointer !important;
+    text-decoration: none;
 }
 
 .menu2:hover {
   color: white !important;
   background-color: #28a745 !important;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .menu3:hover {
   color: white !important;
   background-color: #0093ab !important;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .menu4:hover {
   color: white !important;
   background-color: #af00af !important;
   cursor: pointer;
+  text-decoration: none;
 }
 
 a:hover {
