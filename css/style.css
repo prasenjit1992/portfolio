@@ -207,8 +207,8 @@ body {
 
 .floating_Top {
   position: fixed;
-  bottom: 5%;
-  right: 8%;
+  bottom: 5px;
+  right: 15%;
 }
 
 
