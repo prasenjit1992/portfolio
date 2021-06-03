@@ -371,6 +371,20 @@ a:hover {
   padding-bottom: 80px;
 }
 
+.info-colour {
+  color: #0093ab;
+}
+
+.hoverclass:hover {
+  background-color: #0093ab !important;
+  color: white !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
 
 
 
