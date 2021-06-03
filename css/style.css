@@ -165,12 +165,12 @@ footer {
 
 .facebook {
   top: 5%;
-  right: 5%;
+  right: 3%;
 }
 
 .linkedin {
   top: 5%;
-  right: 10%;
+  right: 8%;
 }
 
 .card {
@@ -433,11 +433,11 @@ a {
 
 
   .facebook {
-    left: 41%;
+    left: 44%;
   }
   
   .linkedin {
-    left: 53%;
+    left: 52%;
   }
 
   .tools-img {
@@ -470,10 +470,12 @@ a {
 
 @media only screen and (max-width: 480px) {
   .facebook {
-    left: 40%;
+    top: 1%;
+    left: 42%;
   }
   
   .linkedin {
+    top: 1%;
     left: 50%;
   }
 
@@ -493,10 +495,12 @@ a {
 
 @media only screen and (max-width: 360px) {
   .facebook {
-    left: 35%;
+    top: 1%;
+    left: 42%;
   }
   
   .linkedin {
-    left: 50%;
+    top: 1%;
+    left: 48%;
   }
 }
