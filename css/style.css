@@ -54,7 +54,6 @@ footer {
   position: relative;
   opacity: 0.9;
   margin-bottom: 20px;
-  margin-bottom: 30px;
 }
 
 
@@ -211,8 +210,10 @@ body {
 
 .floating_Top {
   position: fixed;
-  bottom: 5px;
+  width : 220px;
+  bottom: 10px;
   right: 15%;
+  box-shadow: 0 4px 8px 0 #690569;
 }
 
 
