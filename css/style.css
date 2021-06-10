@@ -299,6 +299,12 @@ div#carouselExampleIndicators img {
   background-color: #0093ab !important;
 }
 
+.card_Header {
+  border-color: #0093ab; 
+  background-color: #0093ab;
+  color: #ffffff;
+}
+
 .menuitem {
   background-color: white !important;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%) !important;
