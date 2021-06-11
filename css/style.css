@@ -24,6 +24,14 @@ img {
   padding-bottom: 0 !important;
 }
 
+.padding-right-0 {
+  padding-right: 0 !important;
+}
+
+.padding-left-0 {
+  padding-left: 0 !important;
+}
+
 .margin-top-0 {
   margin-top: 0 !important;
 }
@@ -78,6 +86,7 @@ footer {
 
 .Section3 {
   background-image: url('../img/abstract3.jpg');
+  min-height: 540px;
 }
 
 .Section4 {
