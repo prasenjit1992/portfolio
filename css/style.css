@@ -66,7 +66,7 @@ footer {
 
 
 .Section {
-  height : 550px;
+  height : 480px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +86,7 @@ footer {
 
 .Section3 {
   background-image: url('../img/abstract3.jpg');
-  min-height: 540px;
+  min-height: 400px;
 }
 
 .Section4 {
@@ -221,7 +221,7 @@ body {
   position: fixed;
   width : 220px;
   bottom: 10px;
-  right: 15%;
+  right: 25%;
   box-shadow: 0 4px 8px 0 #690569;
 }
 
@@ -371,8 +371,8 @@ a:hover {
 }
 
 .tools-img {
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   display: inline;
   float: left;
   margin-top: 20px;
@@ -437,9 +437,9 @@ a {
 
 @media only screen and (max-width: 800px) {
 
-  .Tools-images {
+  /* .Section3 {
     display: none;
-  }
+  } */
 
 
 }
@@ -482,9 +482,9 @@ a {
     font-size: 1rem !important;
   }
 
-  .Proficiency-graph {
+  /* .Proficiency-graph {
     display: none;
-  }
+  } */
 
 }
 
