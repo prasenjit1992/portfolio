@@ -395,7 +395,7 @@ a:hover {
   float: left;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* margin-left: -0% !important; */
+  margin-left: -25% !important;
   border-radius: 10px;
 }
 
@@ -458,6 +458,12 @@ a {
     flex-direction: column !important;
   }
 
+  
+  .tools-img {
+    margin-left: -5% !important; 
+  }
+
+
 
 }
 
@@ -505,7 +511,7 @@ a {
     width: 20px;
     height: 20px;
     border-radius: 3px;
-    /* margin-left: -30% !important; */
+    margin-left: -10% !important;
   }
 
   .card-text {
