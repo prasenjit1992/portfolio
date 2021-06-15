@@ -219,9 +219,9 @@ body {
 
 .floating_Top {
   position: fixed;
-  width : 220px;
+  width : 20%;
   bottom: 10px;
-  right: 25%;
+  left: 40%;
   box-shadow: 0 4px 8px 0 #690569;
 }
 
@@ -371,11 +371,13 @@ a:hover {
 }
 
 .tools-img {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   display: inline;
   float: left;
   margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .contact_div {
@@ -415,6 +417,11 @@ a {
   text-decoration: none !important;
 }
 
+.Carousal_tools_images {
+  position: relative;
+  margin: 0px 10px;
+}
+
 
 
 
@@ -440,6 +447,12 @@ a {
   /* .Section3 {
     display: none;
   } */
+
+  .floating_Top {
+    width : 30%;
+    left: 20%;
+  }
+
 
 
 }
@@ -486,6 +499,11 @@ a {
     display: none;
   } */
 
+  .floating_Top {
+    width : 50%;
+    left: 25%;
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -509,6 +527,12 @@ a {
     height: 20px;
   }
 
+  .floating_Top {
+    width : 80%;
+    left: 10%;
+  }
+
+
 
 }
 
@@ -522,5 +546,10 @@ a {
   .linkedin {
     top: 1%;
     left: 48%;
+  }
+
+  .floating_Top {
+    width : 80%;
+    left: 10%;
   }
 }
