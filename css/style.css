@@ -61,7 +61,7 @@ footer {
   background-size: cover;
   position: relative;
   opacity: 0.9;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 
@@ -477,6 +477,10 @@ a {
     /* margin-left: -25% !important; */
   }
 
+  .carousel-item > img {
+    height: 480px;
+  }
+
 
 
 }
@@ -525,6 +529,9 @@ a {
     display: none;
   } */
 
+  .carousel-item > img {
+    height: 420px;
+  }
 
 
 }
@@ -551,8 +558,7 @@ a {
     width: 20px;
     height: 20px;
   }
-
-
+  
 
 }
 
