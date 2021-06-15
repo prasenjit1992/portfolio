@@ -377,6 +377,7 @@ a:hover {
   float: left;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: -20% !important;
   border-radius: 10px;
 }
 
@@ -453,6 +454,12 @@ a {
     left: 20%;
   }
 
+  .tools-img {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+  }
+
 
 
 }
@@ -474,8 +481,9 @@ a {
   }
 
   .tools-img {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
   }
 
   .card-text {
@@ -520,6 +528,7 @@ a {
   .tools-img {
     width: 30px;
     height: 30px;
+    border-radius: 3px;
   }
 
   .facebook, .linkedin {
