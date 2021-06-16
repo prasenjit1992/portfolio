@@ -20,6 +20,8 @@
     
   <!-- Main Container starts -->  
 
+
+    <!-- Menu Section starts --> 
 <div class="container menu_div">
   <div class="main-menu">
             <div class="text-center text-white">            
@@ -38,35 +40,12 @@
             </div>
   </div> 
 
+    <!-- Menu Section ends --> 
+
 </div>
 
 
 <div class="container p-1 maindiv">
-
-
-  <!-- Menu Section starts --> 
-  <!-- <div class="row main-menu">
-    <div class="col-lg-12 col-md-12">
-        <div class="d-flex flex-column">
-            <div class="d-flex flex-row text-center text-white">            
-                <a class="p-2 font-div menuitem menu1" href="#user">
-                  <i class="fa fa-user fa-2x d-block"></i>Profile
-                </a>                
-                <a class="p-2 font-div menuitem menu2" href="#education">
-                    <i class="fa fa-graduation-cap fa-2x d-block"></i>Academics
-                </a>
-                <a class="p-2 font-div menuitem menu3" href="#experience">
-                    <i class="fa fa-folder fa-2x d-block"></i>Experience  
-                </a>
-                <a class="p-2 text-purple font-div menuitem menu4" href="#contact">
-                    <i class="fa fa-envelope fa-2x d-block"></i>Contact
-                </a>
-            </div>
-        </div> 
-    </div>
-  </div> -->
-   <!-- Menu Section ends --> 
-
 
 
    <!-- Carousel Section starts --> 
@@ -290,7 +269,7 @@
                 </div>  
 
 
-                <div class="col-lg-12 row margin-x-0 col-xs-12 p-4 Proficiency-graph" style="padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
+                <div id="proficiency_chart_desktop" class="col-lg-12 row margin-x-0 col-xs-12 p-4 Proficiency-graph" style="padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
                   <div class="col-sm-12 p-2" style="padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
                     <div class="card" style="background-color: #fff !important;">
                       <div class="card-body">
@@ -300,6 +279,23 @@
                     </div>
                   </div>
                 </div>
+
+
+                <!-- mobile chart starts --> 
+                <div id="proficiency_chart_mobile" class="col-lg-12 row margin-x-0 col-xs-12 p-4 Proficiency-graph" style="padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
+                  <div class="col-sm-12 p-2" style="padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
+                    <div class="card" style="background-color: #fff !important;">
+                      <div class="card-body">
+                        <h3 class="card-title text-primary p-2">Proficiency-</h3>
+                        <canvas id="myChart-mobile" style="width:100%;"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- mobile chart ends --> 
+
+
+
       </div>  
     </br>
 
@@ -654,7 +650,7 @@
 
 
 
-<!-- Chart 2 starts -->
+<!-- Chart 1 starts -->
 <script>
   var xValues = ["Adobe XD", "Photoshop", "Figma", "Bootstrap", "Html", "CSS", "RWD Design", "Mockup", "Wireframe", "Prototype", "Interaction Design", "Usability Testing"];
   var yValues = [75, 70, 75, 70, 85, 85, 75, 75, 75, 70, 60, 60, 50, 100];
@@ -678,8 +674,35 @@
     }
   });
 </script>
-<!-- Chart 2 ends -->
+<!-- Chart 1 ends -->
 
+
+<!-- Chart 2 starts -->
+<script>
+  var xValues1 = ["Adobe XD", "Photoshop", "Figma", "Bootstrap", "Html", "CSS", "RWD Design", "Mockup", "Wireframe", "Prototype", "Interaction Design", "Usability Testing"];
+  var yValues1 = [75, 70, 75, 70, 85, 85, 75, 75, 75, 70, 60, 60, 50, 100];
+  var barColors1 = [
+  "#76c788", "#cc5ccc","#76c788","#cc5ccc","#5caaff", "#5caaff", "#76c788", "#76c788", "#76c788", "#cc5ccc", "#6ac4d2", "#6ac4d2"
+  ];
+  
+  new Chart("myChart-mobile", {
+    type: "pie",
+    data: {
+      labels: xValues1,
+      datasets: [{
+        backgroundColor: barColors1,
+        data: yValues1
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: "Proficiency Meter"
+      }
+    }
+  });
+  </script>
+<!-- Chart 2 ends -->
 
 
 </body>

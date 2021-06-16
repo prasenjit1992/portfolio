@@ -446,6 +446,13 @@ a {
   margin: 0px 10px;
 }
 
+#proficiency_chart_desktop {
+  display: block;
+} 
+
+#proficiency_chart_mobile {
+  display: none;
+} 
 
 
 
@@ -535,13 +542,18 @@ a {
     font-size: 1rem !important;
   }
 
-  /* .Proficiency-graph {
-    display: none;
-  } */
-
   .carousel-item > img {
     height: 420px;
   }
+
+  #proficiency_chart_desktop {
+    display: none;
+  } 
+
+  #proficiency_chart_mobile {
+    display: block;
+  } 
+
 
 
 }
