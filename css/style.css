@@ -184,11 +184,14 @@ footer {
 .facebook {
   top: 5%;
   right: 3%;
+  z-index: 2;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .linkedin {
   top: 5%;
   right: 8%;
+  z-index: 2;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -395,7 +398,7 @@ a:hover {
   float: left;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: -25% !important;
+  margin-left: -15% !important;
   border-radius: 10px;
 }
 
