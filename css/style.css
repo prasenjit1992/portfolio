@@ -457,6 +457,11 @@ a {
   display: none;
 } 
 
+.project_img {
+  height: 250px;
+  width: 100%;
+}
+
 
 
 @media only screen and (max-width: 1000px) {
