@@ -316,11 +316,11 @@ div#carouselExampleIndicators img {
 
 .main-menu {
   margin-top: -5px;
-  margin-left: -1%;
+  margin-left: -0.5%;
   position: fixed;
   top: 5px;
   z-index: 99;
-  width: 100%;
+  width: 99%;
 }
 
 .card-image-info {
