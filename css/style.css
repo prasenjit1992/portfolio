@@ -414,7 +414,7 @@ a:hover {
 }
 
 #user {
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
   z-index: 1;
   background-color: #ffffff;
   margin-top: -25px;
