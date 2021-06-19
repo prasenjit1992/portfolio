@@ -431,10 +431,12 @@ a:hover {
 
 .list-colour1 {
   background-color: #0064cf !important;
+  opacity: 0.9;
 }
 
 .list-colour2 {
   background-color: #005cbe !important;
+  opacity: 0.9;
 }
 
 
