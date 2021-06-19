@@ -429,15 +429,15 @@ a:hover {
   color: #0093ab;
 }
 
-.list-colour1 {
+/* .list-colour1 {
   background-color: #0064cf !important;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .list-colour2 {
   background-color: #005cbe !important;
-  opacity: 0.8;
-}
+  opacity: 0.7;
+} */
 
 
 .hoverclass:hover {
