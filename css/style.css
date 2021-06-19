@@ -151,6 +151,8 @@ footer {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   position: relative;
   margin-top: 60px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .menu_div {
