@@ -477,6 +477,12 @@ a {
   width: 100%;
 }
 
+.skills-header {
+  border-radius: 20px !important;
+  opacity: 0.8;
+  box-shadow: 0 4px 8px 0 #054a94;
+}
+
 
 
 @media only screen and (max-width: 1000px) {
