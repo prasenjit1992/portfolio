@@ -497,6 +497,10 @@ a {
     margin-left: -5% !important; 
   }
 
+  .main-menu {
+    margin-left: -1%;
+    width: 97%;
+  }
 
 
 }
@@ -521,6 +525,10 @@ a {
     height: 480px;
   }
 
+  .main-menu {
+    margin-left: -1%;
+    width: 97%;
+  }
 
 
 }
