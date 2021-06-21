@@ -585,6 +585,10 @@ a {
     display: block;
   } 
 
+  .main-menu {
+    margin-left: -1%;
+    width: 96%;
+  }
 
 
 }
