@@ -542,17 +542,17 @@ a {
 @media only screen and (max-width: 600px) {
 
   .facebook, .linkedin {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
   }
 
 
   .facebook {
-    left: 44%;
+    left: 42%;
   }
   
   .linkedin {
-    left: 52%;
+    left: 54%;
   }
 
   .tools-img {
@@ -602,12 +602,12 @@ a {
 @media only screen and (max-width: 480px) {
   .facebook {
     top: 1%;
-    left: 42%;
+    left: 40%;
   }
   
   .linkedin {
     top: 1%;
-    left: 50%;
+    left: 52%;
   }
 
   .tools-img {
@@ -618,8 +618,8 @@ a {
   }
 
   .facebook, .linkedin {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
   }
   
 
