@@ -40,9 +40,13 @@ img {
   margin-bottom: 0 !important;
 }
 
-.margin-y-40 {
-  margin-top: 40px !important;
-  margin-bottom: 40px !important;
+.margin-y-30 {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+.margin-top-60 {
+  margin-top: 60px !important;
 }
 
 
