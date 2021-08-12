@@ -506,6 +506,11 @@ a {
 
 
 
+.project-div {
+  min-width: 350px !important;
+}
+
+
 @media only screen and (max-width: 1000px) {
   .facebook {
     left: 43%;
