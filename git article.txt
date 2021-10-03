@@ -1,0 +1,48 @@
+Git portfolio website - 
+
+https://prasenjit1992.github.io/portfolio/
+
+---------------------------------------------------------
+
+Git portfolio path - 
+
+https://github.com/prasenjit1992/portfolio
+
+---------------------------------------------------------
+
+Git commands reference -
+
+https://www.atlassian.com/git/glossary
+
+---------------------------------------------------------
+
+cloning from git while first time check out code - 
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /g/portfolio (main)
+$ git clone https://github.com/prasenjit1992/portfolio
+
+---------------------------------------------------------
+
+configuring git while checking in via VS code - 
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /g/portfolio (main)
+$ git config --global user.name "prasenjit"
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /g/portfolio (main)
+$ git config --global user.email "prasenjitdasgupta1991@gmail.com"
+
+---------------------------------------------------------
+
+To verify the git check in status - 
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /g/portfolio (main)
+$ git status
+
+---------------------------------------------------------
+
+To push the code change into git after check in from VS code - 
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /g/portfolio (main)
+$ git push
+
+---------------------------------------------------------
