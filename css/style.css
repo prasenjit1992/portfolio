@@ -58,6 +58,14 @@ img {
   margin-top: 60px !important;
 }
 
+.margin-top-80 {
+  margin-top: 80px !important;
+}
+
+.margin-top-100 {
+  margin-top: 100px !important;
+}
+
 
 .margin-x-0 {
   margin-right: 0 !important;
@@ -133,18 +141,37 @@ footer {
 
 .Section9 {
   background-image: url('../img/abstract9.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Section109 {
+  background-image: url('../img/abstract109.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Section10 {
   background-image: url('../img/abstract10.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Section11 {
   background-image: url('../img/abstract11.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Section12 {
   background-image: url('../img/abstract12.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Section13 {
@@ -239,6 +266,10 @@ footer {
   transition: 0.3s;
   background-color: #ffffff !important;
   color:#000000 !important;
+}
+
+.card-body {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .custom-card:hover {
@@ -443,11 +474,6 @@ a:hover {
   margin-top: -25px;
 }
 
-
-#experience {
-  padding-bottom: 80px;
-}
-
 .info-colour {
   color: #0093ab;
 }
@@ -538,7 +564,7 @@ a {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 5s;
+  transition: transform 4s;
   transform-style: preserve-3d;
 }
 
