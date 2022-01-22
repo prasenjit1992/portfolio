@@ -478,6 +478,11 @@ a:hover {
   color: #0093ab;
 }
 
+.profile-text {
+  line-height: 1.8em;
+  opacity: 0.9;
+}
+
 
 .hoverclass:hover {
   background-color: #0093ab !important;
