@@ -505,8 +505,8 @@ a:hover {
   text-decoration: none !important;
   box-shadow: 0 16px 32px 0 #084953;
   transition: 2.5s;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   z-index: 999;
   position: absolute;
 }
