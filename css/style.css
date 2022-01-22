@@ -535,6 +535,16 @@ a {
 }
 
 
+.certificate-div-1 {
+  margin-bottom: 120px;
+}
+
+.certificate-div-2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   width: 300px;
@@ -694,6 +704,23 @@ a {
     margin-left: -1%;
     width: 96%;
   }
+
+  .flip-card {
+    margin-bottom: 200px !important;
+  }
+
+
+.certificate-div-1 {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.certificate-div-2 {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+
 
 
 }
