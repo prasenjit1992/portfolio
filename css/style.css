@@ -554,7 +554,9 @@ a {
   text-align: center;
   transition: transform 4s;
   transform-style: preserve-3d;
-  line-height: 1.8em;
+  font-weight: 400 !important;
+  font-size: 0.8em !important;
+  line-height: 1.8em !important;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -575,11 +577,6 @@ a {
 /* Style the back side */
 .flip-card-back {
   transform: rotateY(180deg);
-}
-
-/* Style the front side */
-.flip-card-front {
-  font-weight: 300;
 }
 
 
