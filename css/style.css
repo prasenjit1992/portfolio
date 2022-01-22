@@ -535,13 +535,6 @@ a {
 }
 
 
-
-/* .project-div {
-  min-width: 350px !important;
-} */
-
-
-
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   width: 300px;
@@ -561,6 +554,7 @@ a {
   text-align: center;
   transition: transform 4s;
   transform-style: preserve-3d;
+  line-height: 1.8em;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -582,6 +576,12 @@ a {
 .flip-card-back {
   transform: rotateY(180deg);
 }
+
+/* Style the front side */
+.flip-card-front {
+  font-weight: 300;
+}
+
 
 
 
