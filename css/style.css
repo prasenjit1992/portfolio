@@ -651,6 +651,21 @@ a {
     width: 97%;
   }
 
+  .flip-card {
+    margin-bottom: 200px !important;
+  }
+
+
+.certificate-div-1 {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.certificate-div-2 {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
 
 }
 
