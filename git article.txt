@@ -46,3 +46,69 @@ Prasenjit@DESKTOP-7KA1KRN MINGW64 /g/portfolio (main)
 $ git push
 
 ---------------------------------------------------------
+
+
+
+
+
+
+
+______________________________
+_______________________________
+
+
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 ~
+$ git push
+fatal: not a git repository (or any of the parent directories): .git
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 ~
+$ E:\portfolio\index.html
+bash: E:portfolioindex.html: command not found
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 ~
+$ cd E:\portfolio\index.html
+bash: cd: E:portfolioindex.html: No such file or directory
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 ~
+$ cd E:\portfolio\
+> git push
+bash: cd: too many arguments
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 ~
+$ cd E:\portfolio
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /e/portfolio (main)
+$ git push
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/prasenjit1992/portfolio.git/'
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /e/portfolio (main)
+$ git login
+git: 'login' is not a git command. See 'git --help'.
+
+The most similar command is
+        column
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /e/portfolio (main)
+$ git config --global user.email "prasenjitdasgupta1991@gmail.com"
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /e/portfolio (main)
+$ git config --global user.password "Milan1991$@"
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /e/portfolio (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 125.15 KiB | 13.91 MiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/prasenjit1992/portfolio.git
+   9d0ca19..72fa1db  main -> main
+
+Prasenjit@DESKTOP-7KA1KRN MINGW64 /e/portfolio (main)
+$ git push
+Everything up-to-date
+
